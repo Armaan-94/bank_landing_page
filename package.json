@@ -1,6 +1,6 @@
 {
-  "homepage": "http://Armaan-94.github.io/bank_landing_page/",
   "name": "bank_landing_page",
+  "homepage": "https://Armaan-94.github.io/bank_landing_page/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",

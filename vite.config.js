@@ -4,10 +4,10 @@ import tailwindcss from 'tailwindcss'
 
 export default defineConfig({
   plugins: [react()],
+  base: "/bank_landing_page",
   css: {
     postcss: {
       plugins: [tailwindcss()],
     },
-    base: "/bank_landing_page/",
   }
 })
